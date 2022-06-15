@@ -29,4 +29,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-foxy-navigation2 ros-foxy-nav2-bringup \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
+
+# install library
+RUN pip3 install pydantic
+
+# copy necessary file
 COPY * /mnt
