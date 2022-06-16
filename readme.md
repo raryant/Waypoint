@@ -9,6 +9,8 @@ docker build --tag foxy-waypoint .
 ```
 docker run -it foxy-waypoint
 ```
+## if you run the program in windows, use VcXSrv with provided configuration file
+
 ## run the program 
 ### if using dwb controller
 #### terminal 1
